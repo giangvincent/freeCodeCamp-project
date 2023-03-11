@@ -1,35 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Document</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <nav id="navbar">
-        <ul>
-            <li>
-                <a href="#welcome-section">welcome</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-        </ul>
-    </nav>
+<nav id="navbar">
+    <ul>
+        <li>
+            <a href="#welcome-section">Welcome</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#profile">Profile</a>
+        </li>
+    </ul>
+</nav>
+
+<main>
     <section id="welcome-section">
         <h1>Welcome</h1>
     </section>
 
     <section id="projects">
-        <div class="project-title">
-            <div class="title">Project Title</div>
-            <div>
-                <a id="profile-link" href="https://github.com/giangvincent" target="_blank">giangvincent</a>
+        <h1>My Projects</h1>
+        <div class="projects-container">
+            <div class="project-tile">
+                <div class="project-img">
+                    <img alt="" src="https://picsum.photos/200"/>
+                </div>
+                <a class="title">Project 1</a>
+            </div>
+
+            <div class="project-tile">
+                <div class="project-img">
+                    <img alt="" src="https://picsum.photos/200"/>
+                </div>
+                <a class="title">Project 2</a>
+            </div>
+
+            <div class="project-tile">
+                <div class="project-img">
+                    <img alt="" src="https://picsum.photos/200"/>
+                </div>
+                <a class="title">Project 3</a>
+            </div>
+
+            <div class="project-tile">
+                <div class="project-img">
+                    <img alt="" src="https://picsum.photos/200"/>
+                </div>
+                <a class="title">Project 4</a>
+            </div>
+
+            <div class="project-tile">
+                <div class="project-img">
+                    <img alt="" src="https://picsum.photos/200"/>
+                </div>
+                <a class="title">Project 5</a>
+            </div>
+
+            <div class="project-tile">
+                <div class="project-img">
+                    <img alt="" src="https://picsum.photos/200"/>
+                </div>
+                <a class="title">Project 6</a>
             </div>
         </div>
     </section>
+
+    <section id="profile">
+        <h1>Let's work together</h1>
+        <div>
+            <ul>
+                <li>LinkedIn</li>
+                <li>
+                    <a
+                            href="https://github.com/giangvincent"
+                            id="profile-link"
+                            target="_blank"
+                    >Github</a
+                    >
+                </li>
+                <li>Gmail</li>
+                <li>Dev.to</li>
+                <li>Facebook</li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<footer>
+    Giang Vincent
+</footer>
 </body>
 </html>
