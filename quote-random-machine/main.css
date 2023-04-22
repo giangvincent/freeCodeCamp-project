@@ -1,0 +1,23 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote-box {
+    background-color: #a5a4a4;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 50vw;
+}
+
+#quote-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
